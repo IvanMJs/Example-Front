@@ -19,10 +19,10 @@ function About() {
         <h1>{information.name}</h1>
         <h2>{information.profession}</h2>
         <p>{information.about_me}</p>
-        <ul className="skills">
+        <ul className="skill">
           {information.skills &&
             information.skills.map((skill, index) => (
-              <p className="skill">{skill}</p>
+              <p className="skills">{skill}</p>
             ))}
         </ul>
       </div>    
